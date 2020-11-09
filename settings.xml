@@ -3,7 +3,7 @@
   <servers>
     <server>
       <username>admin</username>
-      <password>***</password>
+      <password>Pandapass123</password>
       <id>artifactory</id>
     </server>
   </servers>
