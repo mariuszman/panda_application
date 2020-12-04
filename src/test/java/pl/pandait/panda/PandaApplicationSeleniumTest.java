@@ -21,8 +21,8 @@ public class PandaApplicationSeleniumTest {
     
     private static WebDriver driver;
     
-   // @LocalServerPort
-    //private int port;
+    // @LocalServerPort
+    // private int port;
     
     @BeforeEach
     public void startup() throws InterruptedException, MalformedURLException {
@@ -33,6 +33,7 @@ public class PandaApplicationSeleniumTest {
         // Pamiętaj, że aplikacja Spring musi działać! To znaczy też musi być włączona.
         
         driver.get(String.format("http://192.168.44.44:%d/", 8080));
+
 
         //Czekamy 2 sekundy
         Thread.sleep(2000);
